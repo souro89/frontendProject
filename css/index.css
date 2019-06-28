@@ -121,6 +121,12 @@ h1 {
   border-bottom: 2px;
   border-bottom-color: black;
 }
+h3 {
+  font-family: "abel";
+}
+a {
+  text-decoration: none;
+}
 
 form {
   font-family: "abel";
