@@ -12,6 +12,16 @@ body {
 
 /* Set a style for the rest of the elements besides the header elements on the index.html page */
 
+.header {
+  height: 80px;
+}
+.postButtons {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .title {
   padding-left: 10px;
 
@@ -47,4 +57,102 @@ body {
   color: white;
   width: 80px;
   height: 30px;
+}
+
+#all-post {
+  background-color: orange;
+  color: black;
+  width: 100px;
+  height: 40px;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+#create-post {
+  background-color: orange;
+  color: black;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+h1 {
+  font-family: "abel";
+  margin: 10px;
+  border-bottom: 2px;
+  border-bottom-color: black;
+}
+
+form {
+  font-family: "abel";
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  outline: none;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.label-text {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.signin-btn {
+  font-family: "abel";
+  background-color: green;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.line {
+  height: 1px;
+  background-color: darkslategray;
+  width: 100%;
 }

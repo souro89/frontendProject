@@ -19,18 +19,60 @@
           <p class="sub-logo">Explore, Imagine, Create</p>
         </div>
         <div class="col-xs-4 login-button">
-          <button id="signup">Sign In</button>
-          <button id="signin">Sign Up</button>
+          <button id="signin">Sign In</button>
+          <button id="signup">Sign Up</button>
         </div>
       </div>
 
       <div class="postButtons">
         <!-- Insert code for All Posts & Create Post button here -->
+        <button id="all-post">All Posts</button>
+        <button id="create-post">Create Post</button>
       </div>
     </div>
 
-    <div>
+    <div id="signinModal" class="modal">
       <!-- Insert code for Sign In modal here -->
+
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1 style="text-align: center;">Get Started</h1>
+        <div class="line"></div>
+        <br />
+        <form>
+          <label for="fullname" class="label-text">Full Name</label>
+          <input
+            type="text"
+            id="firstName"
+            placeholder="Enter Full Name"
+            required
+          />
+          <label for="username" class="label-text">Username</label>
+          <input
+            type="text"
+            id="Username"
+            placeholder="Enter Username"
+            required
+          />
+          <label for="password" class="label-text">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter Password"
+            required
+          />
+          <label for="confirmpassword" class="label-text"
+            >Confirm Password</label
+          >
+          <input
+            type="password"
+            id="password"
+            placeholder="Confirm Password"
+            required
+          />
+          <button type="submit" class="signin-btn">Sign Up</button>
+        </form>
+      </div>
     </div>
 
     <div>
