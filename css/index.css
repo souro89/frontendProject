@@ -157,8 +157,38 @@ input {
   cursor: pointer;
 }
 
+.create-btn {
+  font-family: "abel";
+  background-color: green;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 100px;
+}
+
 .line {
   height: 1px;
   background-color: darkslategray;
   width: 100%;
+}
+
+.create-modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+  height: 80%;
+}
+
+.textarea {
+  min-height: 250px;
+  border: 1px solid darkgray;
+}
+
+.btn-centre {
+  text-align: center;
 }
