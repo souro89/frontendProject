@@ -1,14 +1,50 @@
-body{
-   background: url('background.jpg');
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-position: center center;
-   background-size: cover;
-   margin: 0 !important;
-   background-size: 100% cover!important;
-   overflow:hidden;
-   display: block;
-} 
+body {
+  background: url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  margin: 0 !important;
+  background-size: 100% cover !important;
+  overflow: hidden;
+  display: block;
+}
 
 /* Set a style for the rest of the elements besides the header elements on the index.html page */
-                                 
+
+.title {
+  padding-left: 10px;
+
+  float: left;
+}
+.login-button {
+  padding: 10px;
+  float: right;
+}
+
+.main-logo {
+  margin: 0;
+  font-family: "Satisfy";
+  color: blue;
+  font-size: 35px;
+}
+
+.sub-logo {
+  margin: 0;
+  font-family: "Satisfy", cursive;
+  font-size: 14px;
+}
+
+#signup {
+  background-color: blue;
+  color: white;
+  width: 80px;
+  height: 30px;
+}
+
+#signin {
+  background-color: blue;
+  color: white;
+  width: 80px;
+  height: 30px;
+}
