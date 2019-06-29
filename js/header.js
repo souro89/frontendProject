@@ -33,5 +33,3 @@ span.onclick = function() {
 spansignin.onclick = function() {
   signinmodal.style.display = "none";
 };
-
-// When the user clicks anywhere outside of the modal, close it

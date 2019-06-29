@@ -1,8 +1,11 @@
+//Below Code edits or replaces the desc provided
+
 function editDesc() {
   var editbtn = document.getElementById("edit");
   var editbtnHTML = document.getElementById("edit").innerHTML;
   var blogBody = document.getElementById("blogBody").innerText;
   var blogText = document.getElementById("blogText");
+  //toggle the edit button text
   if (
     editbtnHTML ==
     'Edit<i class="fa fa-pencil-square-o" aria-hidden="true"></i>'
@@ -23,9 +26,12 @@ function editDesc() {
 
 var likes = 0;
 
+//Below code implements the like button functionality
+
 function likeCount() {
   var likebtn = document.getElementById("like");
   var likecount = document.getElementById("likecount");
+  //Check the likes value to change the text
   if (likes == 0) {
     likebtn.innerHTML = "Liked!";
     likecount.innerText = "1 person likes this!";
@@ -35,6 +41,8 @@ function likeCount() {
     likecount.innerText = likes + " people liked this!";
   }
 }
+
+//Add comments to the page
 
 function addComments() {
   var cmnt = document.getElementById("add-comment").value;
